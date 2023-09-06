@@ -31,7 +31,7 @@ const Secrets = () => {
       });
     };
     fetchPost();
-  }, [navigate, post]);
+  }, []);
   return (
     <div className="jumbotron text-center secrets">
       <div className="container">
